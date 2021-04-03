@@ -24,15 +24,15 @@ const Create = () => {
                 setLocation(mylist.location);
                 setArrival(mylist.starttime);
                 setEnd(mylist.endtime);
-                if(activity.price === '0 to 49') {
+                if(activity.price === '$0 to $49') {
                     if(parseInt(mylist.price) <= 49) {
                         budget = true;
                     }
-                } else if(activity.price === '50 to 99') {
+                } else if(activity.price === '$50 to $99') {
                     if(parseInt(mylist.price) <= 99) {
                         budget = true;
                     }
-                } else if(activity.price == '100 to 500') {
+                } else if(activity.price == '$100 to $500') {
                     if(parseInt(mylist.price <= 500)) {
                         budget = true;
                     }
@@ -49,12 +49,7 @@ const Create = () => {
                         end: mylist.endtime
                     };
                     handleFetch(e, activity);
-                } else {
-                    console.log('error');
-                    <div className="error">
-                        <h1>Invalid Budget</h1>
-                    </div>
-                }
+                } 
             }
         })
     }
@@ -98,10 +93,10 @@ const Create = () => {
                         <select 
                             value={price}
                             onChange= {(e) => setPrice(e.target.value)}>
-                                <option value="49">0 to 49</option>
-                                <option value="99">50 to 99</option>
-                                <option value="500">100 to 500</option>
-                                <option value="600">500 +</option>
+                                <option value="49">$0 to $49</option>
+                                <option value="99">$50 to $99</option>
+                                <option value="500">$100 to $500</option>
+                                <option value="600">$500 +</option>
                         </select>
                     </div>
                     { !isPending && <button>Add to List</button> }
