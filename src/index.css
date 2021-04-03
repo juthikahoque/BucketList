@@ -117,7 +117,9 @@ button .contenticon {
   margin: 40px auto;
   padding: 20px;
 }
-
+.contenticon {
+  color: #550a86;
+}
 /* CARDS */
 .cards h1 {
   color:#550a86;
@@ -283,7 +285,6 @@ button .contenticon {
   border-radius: 8px;
   cursor: pointer;
 }
-
 
 
 @media screen and (max-width: 2000px) {
