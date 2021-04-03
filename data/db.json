@@ -1,0 +1,54 @@
+{
+    "activities": [
+        {
+            "title": "Paintball",
+            "location": "123 Sesame Street, ON, L1V0E1",
+            "startdate": "2021-03-30",
+            "enddate": "2021-06-30",
+            "price": "200",
+            "starttime": "11AM",
+            "endtime": "2PM",
+            "id": 1
+        },
+        {
+            "title": "Wine Night",
+            "location": "456 Elmo Road, ON, L1Z1K9",
+            "startdate": "2021-03-30",
+            "enddate": "2021-06-30",
+            "price": "50",
+            "starttime": "9PM",
+            "endtime": "12AM",
+            "id": 2
+        },
+        {
+            "title": "Sky Diving",
+            "location": "789 Cookie Avenue, ON, L1Z0E1",
+            "startdate": "2021-03-30",
+            "enddate": "2021-06-30",
+            "price": "20",
+            "starttime": "9AM",
+            "endtime": "12PM",
+            "id": 3
+        },
+        {
+            "title": "Skiing",
+            "location": "1001 University Avenue, ON, L1Z0E1",
+            "startdate": "2021-03-30",
+            "enddate": "2021-06-30",
+            "price": "200",
+            "starttime": "9AM",
+            "endtime": "12PM",
+            "id": 3
+        },
+        {
+            "title": "Trip to Australia",
+            "location": "Australia",
+            "startdate": "2021-03-30",
+            "enddate": "2021-06-30",
+            "price": "1000",
+            "starttime": "ANY",
+            "endtime": "ANY",
+            "id": 3
+        }
+    ]
+}
