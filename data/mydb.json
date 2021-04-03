@@ -1,0 +1,31 @@
+{
+  "mylist": [
+    {
+      "title": "Paintball",
+      "location": "123 Sesame Street, ON, L1V0E1",
+      "date": "2021-04-03T02:03:02.172Z",
+      "price": "200",
+      "arrival": "11AM",
+      "end": "2PM",
+      "id": 1
+    },
+    {
+      "title": "Paintball",
+      "location": "123 Sesame Street, ON, L1V0E1",
+      "date": "2021-04-30T05:09:00.000Z",
+      "price": "200",
+      "arrival": "11AM",
+      "end": "2PM",
+      "id": 2
+    },
+    {
+      "title": "Skiing",
+      "location": "1001 University Avenue, ON, L1Z0E1",
+      "date": "2021-05-20T05:18:00.000Z",
+      "price": "200",
+      "arrival": "9AM",
+      "end": "12PM",
+      "id": 3
+    }
+  ]
+}
