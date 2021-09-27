@@ -1,3 +1,7 @@
+# Bucket List
+This project is a web application created using React.js in order to enable users to modify their bucket lists based on their budgets and activities they wish to do.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
